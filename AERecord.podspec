@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     s.source = { :git => 'https://github.com/tadija/AERecord.git', :tag => s.version }
     s.source_files = 'Sources/*.swift'
 
-    s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.0' }
+    s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
 
     s.ios.deployment_target = '8.0'
     s.tvos.deployment_target = '9.0'
